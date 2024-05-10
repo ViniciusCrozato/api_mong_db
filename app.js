@@ -14,7 +14,7 @@ app.use(express.json());
 
  
 
-const contatoRouter = require('./routes/contatosRoutes'); 
+const contatoRouter = require('./routes/contatoRoutes'); 
 
 app.use('/contatos', contatoRouter); 
 
